@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Boot.iml" filepath="$PROJECT_DIR$/Boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-01/boot-01.iml" filepath="$PROJECT_DIR$/boot-01/boot-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-03/boot-03.iml" filepath="$PROJECT_DIR$/boot-03/boot-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-04/boot-04.iml" filepath="$PROJECT_DIR$/boot-04/boot-04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-mvc/boot-mvc.iml" filepath="$PROJECT_DIR$/boot-mvc/boot-mvc.iml" />
+    </modules>
+  </component>
+</project>

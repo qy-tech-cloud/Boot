@@ -1,0 +1,9 @@
+app:
+  name: boot01
+  owner: lxl
+spring:
+  config:
+    import: conf/db.yml,conf/redis.yml
+  profiles:
+    active: test
+
