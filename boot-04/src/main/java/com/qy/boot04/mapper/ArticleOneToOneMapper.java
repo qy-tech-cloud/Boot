@@ -20,6 +20,16 @@ public interface ArticleOneToOneMapper {
     ArticleDetail selectDetailByArticleId(Integer articleId);
 
     @Select("""
+            select id,article_id,content from article_detail where id=#{id}
+            """)
+    @Results({
+            @Result(id = true, column = "id", property = "id"),
+            @Result(column = "article_id", property = "articleId"),
+            @Result(column = "content", property = "content")
+    })
+    ArticleDetail selectDetailById(Integer id);
+
+    @Select("""
             select id,user_id,title,summary,read_count,create_time,update_time
                        from article where id=#{id}
             """)
